@@ -1,0 +1,517 @@
+@font-face {
+    font-family: font;
+    src: url("Kurale-Regular.ttf");
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+img {}
+
+body,
+h1,
+h2,
+h3,
+h4,
+button {
+    font-family: font;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    font-size: 18px;
+}
+
+.container {
+    max-width: 1150px;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.title h1 {
+
+    font-size: 40px;
+}
+
+.title {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.title p {
+    margin: 10px auto;
+    width: 600px;
+
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 11px;
+}
+
+.btn-fill {
+    background-color: rgb(93, 248, 93);
+}
+
+.btn-out {
+    border: 2px solid green;
+    color: green;
+}
+
+.title {}
+
+.nav {}
+
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 27px 0px;
+}
+
+.nav .logo {}
+
+.nav ul {
+    display: flex;
+    gap: 28px;
+    font-size: 19px;
+}
+
+.nav button {
+    color: green;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.nav button img {}
+
+.nav button span {}
+
+.home {}
+
+.home .container {
+    background: linear-gradient(rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.545)) center center / cover no-repeat, url("img/banner.png");
+    border-radius: 20px;
+    overflow: hidden;
+    height: 540px;
+    text-align: center;
+    color: white;
+}
+
+.home h1 {
+    font-size: 63px;
+    margin-top: 60px;
+}
+
+.home h2 {
+    font-size: 65px;
+    color: lightgreen;
+}
+
+.home p {
+    width: 589px;
+    margin: 16px auto;
+    /* margin: 20px 0; */
+}
+
+.home button {}
+
+.achievement {}
+
+.achievement .containe {}
+
+r {}
+
+.achievement .cards {
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    margin-top: -45px;
+}
+
+.achievement .card {
+    width: 280px;
+    background: antiquewhite;
+    display: flex;
+    padding: 18px 20px;
+    align-items: center;
+    gap: 18px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 0px 0px rgba(86, 211, 24, 0.75);
+}
+
+.achievement .card .img {}
+
+.achievement .card .count {}
+
+.achievement .card .count h1 {}
+
+.achievement .card .count p {}
+
+.offer {
+    margin: 60px 0;
+}
+
+.offer .container {}
+
+.offer .cards {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.offer .card {
+    background: #bcbc05;
+    display: flex;
+    /* gap: 20px; */
+    width: 44%;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.offer .card .left {
+    width: 55%;
+    padding: 26px;
+}
+
+
+.offer .card .left h1 {}
+
+.offer .card .left h3 {}
+
+.offer .card img {}
+
+.offer .card .right h1 {}
+
+.offer .card .right p {}
+
+.ticket {
+    background: #f7f8f8;
+    padding: 20px 0;
+}
+
+.ticket .container {}
+
+.ticket .details {
+    background: white;
+    display: flex;
+    border-radius: 20px;
+}
+
+.ticket .details .left {
+    padding: 30px 37px;
+    /* border-radius: 16px; */
+}
+
+.ticket .details .left .name {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+}
+
+.ticket .details .left .name .bus {
+    flex: 1;
+    margin-left: 14px;
+}
+
+.ticket .details .left .name span {
+    background: #c9f8c9;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 11px 25px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+.ticket .details .left .name .bus-logo {
+    margin-top: 15px;
+}
+
+.ticket .details .left .route-time p {
+    font-size: 20px
+}
+
+.ticket .details .left .route-time {
+    background: #e7f3e7;
+    padding: 24px 26px;
+    border-radius: 16px;
+    margin-top: 27px;
+}
+
+.ticket .details .left .route-time .route {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ticket .details .left .route-time .time {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px dashed lightgray;
+    border-bottom: 2px dashed lightgray;
+    padding: 13px 0px;
+    margin: 14px 0;
+}
+
+.ticket .details .left .route-info {}
+
+.ticket .details .left .route-info span {
+    background: lightblue;
+    padding: 11px 26px;
+    margin: 0 7px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+span.boarding {}
+
+.ticket .details .right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}
+
+.ticket .right img {}
+
+.ticket .right h1 {
+    border-bottom: 2px dashed lightgray;
+    /* width: 100%; */
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.ticket .seats {
+    padding: 20px;
+    background: white;
+    border-radius: 20px;
+    margin: 30px 0;
+    display: flex;
+}
+
+.ticket .seats .left {
+    width: 60%;
+    border-right: 2px dashed lightgray;
+    margin-right: 25px;
+    padding: 0 30px 0 10px;
+}
+
+.ticket .seats .sign {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px dashed lightgray;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.ticket .seats .sign .available,
+.ticket .seats .sign .select {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font-size: 18px;
+}
+
+.ticket .seats .sign .select {}
+
+.ticket .seats .all-seat {
+    font-size: 20px;
+}
+
+.ticket .seats .all-seat .driver {
+    display: flex;
+    justify-content: end;
+    margin-right: 26px;
+    margin-top: 27px;
+}
+
+.ticket .seats .all-seat .driver .seat {
+    height: 45px;
+    padding: 7px 0;
+    text-align: center;
+}
+
+.ticket .seats .all-seat .row {
+    width: 24px;
+}
+
+
+.ticket .seats .all-seat .seat {
+    width: 100px;
+    padding: 10px 0;
+    background: #90ee90a3;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 13px;
+}
+
+.ticket .seats .all-seat .seat:nth-child(3) {
+
+    margin-right: 80px;
+}
+
+.ticket .seats .all-seat .seatss {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.ticket .seats .seat-fill {
+    color: white;
+    background: rgba(0, 128, 0, 0.641);
+}
+
+.ticket .seats .right {
+    width: 40%;
+    padding: 0 17px;
+}
+
+.ticket .seats .right .price {
+    background: #d9fad9;
+    padding: 16px 22px;
+    border-radius: 15px;
+}
+
+.ticket .seats .right .price h4 {
+    font-size: 20px
+}
+
+.ticket .seats .right .price-titles {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 2px dashed lightgray;
+}
+
+.ticket .seats .right .price-titles h4 {
+    /* width: 81px; */
+    /* background: red; */
+    font-size: 20px;
+}
+
+.ticket .seats .right .seat-count {
+    background: #16800085;
+    padding: 2px 7px;
+    font-size: 14px;
+    border-radius: 5px;
+    color: white;
+}
+
+.ticket .seats .right .seat-details {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.ticket .seats .right .total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    padding-top: 5px;
+    border-top: 2px dashed lightgray;
+}
+
+.ticket .seats .right .coupon {
+    background: white;
+    display: flex;
+    padding: 5px 10px;
+    justify-content: space-between;
+    border-radius: 15px;
+    margin: 13px 0;
+}
+
+.ticket .seats .right .coupon input {
+    width: 217px;
+    padding: 5px 10px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+}
+
+.ticket .seats .right .coupon button {
+    font-size: 17px;
+    border: none;
+    padding: 7px 21px;
+}
+
+.ticket .seats .right .grand-total {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ticket .seats .right form {
+    margin-top: 25px;
+}
+
+.ticket .seats .right form h2 {}
+
+.ticket .seats .right form input {
+    margin-bottom: 18px;
+    width: 100%;
+    margin-top: 8px;
+    padding: 10px;
+    font-size: 17px;
+    border: 2px solid lightgray;
+    border-radius: 11px;
+}
+
+.ticket .seats .right form button {
+    width: 100%;
+    border: none;
+}
+
+footer {
+    background: black;
+    color: white;
+}
+
+footer .container .top {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    align-items: center;
+    border-bottom: 2px dashed #7d6d6d;
+}
+
+footer .top h1 {}
+
+footer .top p {
+    width: 300px;
+}
+
+footer .top img {
+    width: 240px;
+}
+
+footer .top h2 {
+    text-align: center;
+}
+
+footer .bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+
+footer .bottom ul {
+    display: flex;
+    gap: 25px;
+}
+
+footer .bottom li {}
