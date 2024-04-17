@@ -15,7 +15,7 @@ new15.addEventListener("click", function (e) {
 })
 
 couple20.addEventListener("click", function (e) {
-    couponCode.value = "Couple20"
+    couponCode.value = "Couple 20"
 })
 
 
@@ -92,7 +92,7 @@ function coupon() {
         grandPrice = price - price * 15 / 100
         grandTotal.innerHTML = `BDT ${grandPrice}`
     }
-    if (coupon === 'Couple20') {
+    if (coupon === 'Couple 20') {
 
         grandPrice = price - price * 20 / 100
         grandTotal.innerHTML = `BDT ${grandPrice}`
